@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "DSREyeLocator/2.0.1.0": {
+        "dependencies": {
+          "ECommons": "2.0.0.3",
+          "ExposedObject": "2.1.0"
+        },
+        "runtime": {
+          "DSREyeLocator.dll": {}
+        }
+      },
+      "ExposedObject/2.1.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/ExposedObject.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "ECommons/2.0.0.3": {
+        "runtime": {
+          "ECommons.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DSREyeLocator/2.0.1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExposedObject/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SmX9w+KMTWrZ0BtHzHmW+3BLKYqgIbTleA+TfiyT6Gz3HglA8T9FEQ5v3qOimJ5J/5+xMOElpdPq45Qm19+xrw==",
+      "path": "exposedobject/2.1.0",
+      "hashPath": "exposedobject.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "ECommons/2.0.0.3": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

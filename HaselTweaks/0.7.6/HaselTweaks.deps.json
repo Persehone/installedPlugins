@@ -1,0 +1,96 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HaselTweaks/0.7.5": {
+        "dependencies": {
+          "Dalamud.ContextMenu": "1.2.1",
+          "DalamudPackager": "2.1.8",
+          "Microsoft.SourceLink.GitHub": "1.1.1",
+          "XivCommon": "6.0.2"
+        },
+        "runtime": {
+          "HaselTweaks.dll": {}
+        }
+      },
+      "Dalamud.ContextMenu/1.2.1": {
+        "runtime": {
+          "lib/net6.0-windows7.0/Dalamud.ContextMenu.dll": {
+            "assemblyVersion": "1.2.1.0",
+            "fileVersion": "1.2.1.0"
+          }
+        }
+      },
+      "DalamudPackager/2.1.8": {},
+      "Microsoft.Build.Tasks.Git/1.1.1": {},
+      "Microsoft.SourceLink.Common/1.1.1": {},
+      "Microsoft.SourceLink.GitHub/1.1.1": {
+        "dependencies": {
+          "Microsoft.Build.Tasks.Git": "1.1.1",
+          "Microsoft.SourceLink.Common": "1.1.1"
+        }
+      },
+      "XivCommon/6.0.2": {
+        "runtime": {
+          "lib/net6.0-windows7.0/XivCommon.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HaselTweaks/0.7.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dalamud.ContextMenu/1.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RiBkn1OYRTnVbfUGYolLBE8MOeXjok+JiZaryb27oGa7YARCTu0XgUzkRiCglujknsHOn5kAaXsT3TUJmqMigg==",
+      "path": "dalamud.contextmenu/1.2.1",
+      "hashPath": "dalamud.contextmenu.1.2.1.nupkg.sha512"
+    },
+    "DalamudPackager/2.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YqagNXs9InxmqkXzq7kLveImxnodkBEicAhydMXVp7dFjC7xb76U6zGgAax4/BWIWfZeWzr5DJyQSev31kj81A==",
+      "path": "dalamudpackager/2.1.8",
+      "hashPath": "dalamudpackager.2.1.8.nupkg.sha512"
+    },
+    "Microsoft.Build.Tasks.Git/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AT3HlgTjsqHnWpBHSNeR0KxbLZD7bztlZVj7I8vgeYG9SYqbeFGh0TM/KVtC6fg53nrWHl3VfZFvb5BiQFcY6Q==",
+      "path": "microsoft.build.tasks.git/1.1.1",
+      "hashPath": "microsoft.build.tasks.git.1.1.1.nupkg.sha512"
+    },
+    "Microsoft.SourceLink.Common/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WMcGpWKrmJmzrNeuaEb23bEMnbtR/vLmvZtkAP5qWu7vQsY59GqfRJd65sFpBszbd2k/bQ8cs8eWawQKAabkVg==",
+      "path": "microsoft.sourcelink.common/1.1.1",
+      "hashPath": "microsoft.sourcelink.common.1.1.1.nupkg.sha512"
+    },
+    "Microsoft.SourceLink.GitHub/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IaJGnOv/M7UQjRJks7B6p7pbPnOwisYGOIzqCz5ilGFTApZ3ktOR+6zJ12ZRPInulBmdAf1SrGdDG2MU8g6XTw==",
+      "path": "microsoft.sourcelink.github/1.1.1",
+      "hashPath": "microsoft.sourcelink.github.1.1.1.nupkg.sha512"
+    },
+    "XivCommon/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C/GnQ61iO0yEpf8LPixU3tCThar1MWUiBkO8gdZHNtVskg8AvFeuIxk7Zmkf2yeAJ0drR/KOTdSS7GpbsgmoaQ==",
+      "path": "xivcommon/6.0.2",
+      "hashPath": "xivcommon.6.0.2.nupkg.sha512"
+    }
+  }
+}

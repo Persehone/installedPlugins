@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DSREyeLocator</name>
+    </assembly>
+    <members>
+        <member name="F:DSREyeLocator.FFXIVIpcMapEffect.unk_8">
+            <summary>
+            We want this for eye
+            </summary>
+        </member>
+        <member name="F:DSREyeLocator.FFXIVIpcMapEffect.unk_10">
+            <summary>
+            Possibly junk data
+            </summary>
+        </member>
+    </members>
+</doc>

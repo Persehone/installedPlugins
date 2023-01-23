@@ -1,0 +1,43 @@
+{
+  "Disabled": false,
+  "Testing": false,
+  "ScheduledForDeletion": false,
+  "InstalledFromUrl": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json",
+  "IsThirdParty": true,
+  "EffectiveVersion": "2.0.3.6",
+  "IsAvailableForTesting": false,
+  "Author": "UnknownX",
+  "Name": "Cammy",
+  "Punchline": "A simple editor for the game's camera settings",
+  "Description": "A simple camera editor to change various game defaults such as zoom and fov.\nThis is a zoomhack, if you aren't comfortable with that fact, don't install it.",
+  "Changelog": "",
+  "Tags": null,
+  "CategoryTags": [
+    "utility"
+  ],
+  "IsHide": false,
+  "InternalName": "Cammy",
+  "AssemblyVersion": "2.0.3.6",
+  "TestingAssemblyVersion": null,
+  "IsTestingExclusive": false,
+  "RepoUrl": "https://github.com/UnknownX7/Cammy",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 8,
+  "DownloadCount": 0,
+  "LastUpdate": 1673478670,
+  "DownloadLinkInstall": "https://github.com/UnknownX7/DalamudPluginRepo/raw/master/plugins/Cammy/latest.zip",
+  "DownloadLinkUpdate": "https://github.com/UnknownX7/DalamudPluginRepo/raw/master/plugins/Cammy/latest.zip",
+  "DownloadLinkTesting": "https://github.com/UnknownX7/DalamudPluginRepo/raw/master/plugins/Cammy/latest.zip",
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "CanUnloadAsync": false,
+  "ImageUrls": [
+    ""
+  ],
+  "IconUrl": "",
+  "AcceptsFeedback": true,
+  "FeedbackMessage": null,
+  "_isDip17Plugin": false,
+  "_Dip17Channel": null
+}

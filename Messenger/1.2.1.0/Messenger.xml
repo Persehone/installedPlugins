@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Messenger</name>
+    </assembly>
+    <members>
+        <member name="T:Messenger.FriendListManager.FriendList">
+            <summary>
+            The class containing friend list functionality
+            </summary>
+        </member>
+        <member name="M:Messenger.FriendListManager.FriendList.Get">
+            <summary>
+            <para>
+            A live list of the currently-logged-in player's friends.
+            </para>
+            <para>
+            The list is empty if not logged in.
+            </para>
+            </summary>
+        </member>
+        <member name="T:Messenger.FriendListManager.FriendListEntry">
+            <summary>
+            An entry in a player's friend list.
+            </summary>
+        </member>
+        <member name="F:Messenger.FriendListManager.FriendListEntry.ContentId">
+            <summary>
+            The content ID of the friend.
+            </summary>
+        </member>
+        <member name="F:Messenger.FriendListManager.FriendListEntry.CurrentWorld">
+            <summary>
+            The current world of the friend.
+            </summary>
+        </member>
+        <member name="F:Messenger.FriendListManager.FriendListEntry.HomeWorld">
+            <summary>
+            The home world of the friend.
+            </summary>
+        </member>
+        <member name="F:Messenger.FriendListManager.FriendListEntry.Job">
+            <summary>
+            The job the friend is currently on.
+            </summary>
+        </member>
+        <member name="F:Messenger.FriendListManager.FriendListEntry.RawName">
+            <summary>
+            The friend's raw SeString name. See <see cref="P:Messenger.FriendListManager.FriendListEntry.Name"/>.
+            </summary>
+        </member>
+        <member name="F:Messenger.FriendListManager.FriendListEntry.RawFreeCompany">
+            <summary>
+            The friend's raw SeString free company tag. See <see cref="P:Messenger.FriendListManager.FriendListEntry.FreeCompany"/>.
+            </summary>
+        </member>
+        <member name="P:Messenger.FriendListManager.FriendListEntry.Name">
+            <summary>
+            The friend's name.
+            </summary>
+        </member>
+        <member name="P:Messenger.FriendListManager.FriendListEntry.FreeCompany">
+            <summary>
+            The friend's free company tag.
+            </summary>
+        </member>
+    </members>
+</doc>

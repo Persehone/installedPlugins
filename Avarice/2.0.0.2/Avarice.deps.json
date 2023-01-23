@@ -1,0 +1,69 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Avarice/2.0.0.2": {
+        "dependencies": {
+          "DalamudPackager": "2.1.10",
+          "ECommons": "2.0.0",
+          "PunishLib": "1.0.1.1"
+        },
+        "runtime": {
+          "Avarice.dll": {}
+        }
+      },
+      "DalamudPackager/2.1.10": {},
+      "ECommons/2.0.0": {
+        "runtime": {
+          "lib/net7.0-windows7.0/ECommons.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "PunishLib/1.0.1.1": {
+        "dependencies": {
+          "ECommons": "2.0.0"
+        },
+        "runtime": {
+          "lib/net7.0-windows7.0/PunishLib.dll": {
+            "assemblyVersion": "1.0.1.1",
+            "fileVersion": "1.0.1.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Avarice/2.0.0.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DalamudPackager/2.1.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S6NrvvOnLgT4GDdgwuKVJjbFo+8ZEj+JsEYk9ojjOR/MMfv1dIFpT8aRJQfI24rtDcw1uF+GnSSMN4WW1yt7fw==",
+      "path": "dalamudpackager/2.1.10",
+      "hashPath": "dalamudpackager.2.1.10.nupkg.sha512"
+    },
+    "ECommons/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ymUPkVaAzFEGSw6vWr89Kny2LT7e9eUKNxq4fnMm8v4TAzgTz+R5Dh1oopFU7RNM+aB4QB5kFBnNUg+O0xCxLA==",
+      "path": "ecommons/2.0.0",
+      "hashPath": "ecommons.2.0.0.nupkg.sha512"
+    },
+    "PunishLib/1.0.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LFiGPnidtDtTFB5q6vL9/htAkHv9JXhVN+r9hMq6UQuzHyyeoKD9PENLrpFVnr1Wi4t55sw9EXyIYZ8H7FiULw==",
+      "path": "punishlib/1.0.1.1",
+      "hashPath": "punishlib.1.0.1.1.nupkg.sha512"
+    }
+  }
+}

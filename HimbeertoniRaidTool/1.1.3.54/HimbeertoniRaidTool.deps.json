@@ -1,0 +1,168 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "HimbeertoniRaidTool/1.1.3.54": {
+        "dependencies": {
+          "DalamudPackager": "2.1.10",
+          "HimbeertoniRaidTool.Common": "1.1.0",
+          "NetStone": "1.0.1"
+        },
+        "runtime": {
+          "HimbeertoniRaidTool.dll": {}
+        }
+      },
+      "DalamudPackager/2.1.10": {},
+      "HtmlAgilityPack/1.11.46": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.46.0",
+            "fileVersion": "1.11.46.0"
+          }
+        }
+      },
+      "JetBrains.Annotations/2022.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "assemblyVersion": "4242.42.42.42",
+            "fileVersion": "2022.1.0.0"
+          }
+        }
+      },
+      "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork/0.0.2": {
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.46"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork.dll": {
+            "assemblyVersion": "0.0.2.0",
+            "fileVersion": "0.0.2.0"
+          }
+        }
+      },
+      "Koenari.XIVCalc/0.1.2": {
+        "dependencies": {
+          "Lumina.Excel": "6.3.1"
+        },
+        "runtime": {
+          "lib/net6.0/XIVCalc.dll": {
+            "assemblyVersion": "0.1.2.0",
+            "fileVersion": "0.1.2.0"
+          }
+        }
+      },
+      "Lumina/3.10.0": {},
+      "Lumina.Excel/6.3.1": {
+        "dependencies": {
+          "Lumina": "3.10.0"
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.2.27524"
+          }
+        }
+      },
+      "HimbeertoniRaidTool.Common/1.1.0": {
+        "dependencies": {
+          "Koenari.XIVCalc": "0.1.2",
+          "Lumina.Excel": "6.3.1",
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "runtime": {
+          "HimbeertoniRaidTool.Common.dll": {}
+        }
+      },
+      "NetStone/1.0.1": {
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.46",
+          "JetBrains.Annotations": "2022.1.0",
+          "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork": "0.0.2",
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "runtime": {
+          "NetStone.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HimbeertoniRaidTool/1.1.3.54": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DalamudPackager/2.1.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S6NrvvOnLgT4GDdgwuKVJjbFo+8ZEj+JsEYk9ojjOR/MMfv1dIFpT8aRJQfI24rtDcw1uF+GnSSMN4WW1yt7fw==",
+      "path": "dalamudpackager/2.1.10",
+      "hashPath": "dalamudpackager.2.1.10.nupkg.sha512"
+    },
+    "HtmlAgilityPack/1.11.46": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dLMn4EVfJBHWmWK4Uh0XGD76FPLHI0qr2Tm0s1m/xmgiHb1JUb9zB8AzO8HtrkBBlMN6JfCUBYddhqC0hZNR+g==",
+      "path": "htmlagilitypack/1.11.46",
+      "hashPath": "htmlagilitypack.1.11.46.nupkg.sha512"
+    },
+    "JetBrains.Annotations/2022.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ASfpoFJxiRsC9Xc4TWuPM41Zb/gl64xwfMOhnOZ3RnVWGYIZchjpWQV5zshJgoc/ZxVtgjaF7b577lURj7E6ig==",
+      "path": "jetbrains.annotations/2022.1.0",
+      "hashPath": "jetbrains.annotations.2022.1.0.nupkg.sha512"
+    },
+    "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork/0.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+7cqe/+tN7gDW36pgrefSeyAQvhqznM34D0uTwnETgU25iAC6boPtblxbrMluW5rA9o6MzjEg4qZK7WrnT+tSw==",
+      "path": "karashiiro.htmlagilitypack.cssselectors.netcorefork/0.0.2",
+      "hashPath": "karashiiro.htmlagilitypack.cssselectors.netcorefork.0.0.2.nupkg.sha512"
+    },
+    "Koenari.XIVCalc/0.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IgAy4ard2i+9E1Y3x2LIIM7tV3SqD4ZIcYceo5RMAO/qR4RqxjOf4LPaKvfi5zxOsK1GrWwt6VwuwyusdV8mpQ==",
+      "path": "koenari.xivcalc/0.1.2",
+      "hashPath": "koenari.xivcalc.0.1.2.nupkg.sha512"
+    },
+    "Lumina/3.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OKDBlcz8VcapWCZjJWKoCq6iWjtooiN2WSu8ijP6hGtSTX03ksHuPFypSswur8KBCY9I6XYOYVBZ6IccFjrjnA==",
+      "path": "lumina/3.10.0",
+      "hashPath": "lumina.3.10.0.nupkg.sha512"
+    },
+    "Lumina.Excel/6.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GPj3GfE3ExU1Ob4ENTV/Xj/1+k9WkBaYPrZhGyPXVxILcQd2u2lmU2SmR+Uv9SbAGZD/Rbmuc5cmiHrZRW405w==",
+      "path": "lumina.excel/6.3.1",
+      "hashPath": "lumina.excel.6.3.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
+      "path": "newtonsoft.json/13.0.2",
+      "hashPath": "newtonsoft.json.13.0.2.nupkg.sha512"
+    },
+    "HimbeertoniRaidTool.Common/1.1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NetStone/1.0.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

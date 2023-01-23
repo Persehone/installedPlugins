@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "AbyssosToolbox/1.0.0.4": {
+        "dependencies": {
+          "ECommons": "2.0.0"
+        },
+        "runtime": {
+          "AbyssosToolbox.dll": {}
+        }
+      },
+      "ECommons/2.0.0": {
+        "runtime": {
+          "ECommons.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AbyssosToolbox/1.0.0.4": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ECommons/2.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
